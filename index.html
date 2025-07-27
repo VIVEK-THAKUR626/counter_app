@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>counter app</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="header">
@@ -15,19 +14,19 @@
     </div>
     <div class="content">
         <div class="counter">
-            <div class="increment">
-                <button id="subtract">-</button>
+            <div class="decrement">
+                <button id="subtract" type="button">-</button>
             </div>
             <div class="reset">
                 <div class="timer">
-                    <textarea class="number"></textarea>
+                    <input id="number" type="text" readonly />
                 </div>
                 <div>
-                    <button id="zero">RESET</button>
+                    <button id="zero" type="button">RESET</button>
                 </div>
             </div>
-            <div class="decrement">
-                <button id="add">+</button>
+            <div class="increment">
+                <button id="add" type="button">+</button>
             </div>  
         </div>
     </div>
@@ -36,5 +35,6 @@
             <h4>AN APPLICATION BY VIVEK THAKUR</h4>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
