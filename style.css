@@ -62,11 +62,12 @@ button{
     width: 8em;
 }
 .timer{
+    display: flex;
     height: 6em;
     width: 9em;
-    border: 0.25em black solid;
+    border: 0.25em white solid;
     align-self: center;
-    background-color: black;
+    justify-content: center;
 }
 .decrement{
     align-content: center;
@@ -74,4 +75,9 @@ button{
 }
 h1,h4{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+textarea{
+    height: 8em;
+    width: 11em;
+    background-color: black;
 }

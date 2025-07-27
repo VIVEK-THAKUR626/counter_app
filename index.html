@@ -9,17 +9,26 @@
 </head>
 <body>
     <div class="header">
-        <div class="title"><h1>COUNTER APP</h1></div>
+        <div class="title">
+            <h1>COUNTER APP</h1>
+        </div>
     </div>
     <div class="content">
         <div class="counter">
-            <div class="increment"><button>-</button></div>
-            <div class="reset">
-                <div class="timer"></div>
-                <div><button>RESET</button></div>
+            <div class="increment">
+                <button id="subtract">-</button>
             </div>
-            <div class="decrement"><button>+</button></div>
-            
+            <div class="reset">
+                <div class="timer">
+                    <textarea class="number"></textarea>
+                </div>
+                <div>
+                    <button id="zero">RESET</button>
+                </div>
+            </div>
+            <div class="decrement">
+                <button id="add">+</button>
+            </div>  
         </div>
     </div>
     <div class="footer">
