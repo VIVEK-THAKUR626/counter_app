@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    width: 100vw;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 100vw;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    width: 100vw;
+    align-content: center;
+}
+.title{
+    height: 15em;
+    width: 20em;
+    justify-items: center;
+    align-content: center;
+}
+.counter{
+    display: flex;
+    height: 20em;
+    width: 25em;
+    border: 2px black solid;
+    justify-content: space-evenly;
+}
+.dev_info{
+    height: 15em;
+    width: 20em;
+    align-content: center;
+    justify-items: center;
+}
+button{
+    height: 4em;
+    width: 4em;
+}
+.increment{
+    align-content: center;
+    margin-top: 2em;
+}
+.reset{
+    align-content: center;
+    align-self: self-end;
+    margin-bottom: 2em;
+}
+.reset button{
+    width: 8em;
+}
+.decrement{
+    align-content: center;
+    margin-top: 2em;
+}
